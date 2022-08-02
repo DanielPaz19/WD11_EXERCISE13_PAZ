@@ -1,0 +1,14 @@
+
+$primary: #092328;
+$dark: yellow;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$pacc-theme: (
+  "main" : #160fc1,
+);
+
+$theme-colors: map-merge($pacc-theme, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
